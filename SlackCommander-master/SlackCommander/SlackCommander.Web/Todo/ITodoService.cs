@@ -16,5 +16,10 @@ namespace SlackCommander.Web.Todo
         void ClearItems(string userId, string listId, bool includeUnticked = false, bool force = false);
         void ClaimItem(string userId, string listId, string itemId, bool force = false);
         void FreeItem(string userId, string listId, string itemId, bool force = false);
+
+        IEnumerable<TodoItem> RetriveKit(string KitId);
+        IEnumerable<TodoItem> RetriveScope();
+
+        Reader.DataBase RetriveDataBase();
     }
 }

@@ -13,7 +13,7 @@ namespace SlackCommander.Web.Todo
             var items = todoItems.ToArray();
             if (!items.Any())
             {
-                return "You are all done!";
+                return "Your all done! look for an item to start";
             }
             int idMaxLength = items.Max(i => i.Id.Length);
             var text = new StringBuilder();

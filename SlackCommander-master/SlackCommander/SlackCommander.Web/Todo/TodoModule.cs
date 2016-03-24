@@ -145,6 +145,19 @@ namespace SlackCommander.Web.Todo
                         _todoService.ClearItems(message.user_id, listId, includeUnticked: false, force: false);
                         break;
                     }
+                case "get":
+                    {
+                        if (message.kitId == null)
+                        {
+                            var scopeRet = _todoService.RetriveScope();
+                            return scopeRet.ToArray().ToSlackString();
+                        }
+                        else
+                        {
+                            var scopeRet = _todoService.RetriveKit(message.kitId);
+                            return scopeRet.ToArray().ToSlackString();
+                        }
+                    }
                 case "clear":
                     {
                         var force = message.text.SubstringByWords(1, 1).ToLowerInvariant() == "force";
@@ -213,6 +226,7 @@ namespace SlackCommander.Web.Todo
                         return "Sorry, that is not a valid syntax for the `/todo` command. Use `/todo help` to see available operations.";
                     }
             }
+
             list = _todoService.GetItems(message.user_id, listId).ToArray();
             return list.ToSlackString();
         }

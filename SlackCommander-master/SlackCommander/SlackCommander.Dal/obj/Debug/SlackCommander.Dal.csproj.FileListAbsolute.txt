@@ -1,0 +1,12 @@
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\SlackCommander.Dal.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\SlackCommander.Dal.pdb
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\GData.Spreadsheets.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\Google.GData.Client.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\Google.GData.Extensions.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\Google.GData.Spreadsheets.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\Newtonsoft.Json.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\Newtonsoft.Json.pdb
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\bin\Debug\Newtonsoft.Json.xml
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\obj\Debug\SlackCommander.Dal.csprojResolveAssemblyReference.cache
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\obj\Debug\SlackCommander.Dal.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Dal\obj\Debug\SlackCommander.Dal.pdb

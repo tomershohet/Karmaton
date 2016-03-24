@@ -267,6 +267,40 @@ namespace SlackCommander.Web.Todo
             return table;
         }
 
+        public IEnumerable<TodoItem> RetriveKit(string KitId)
+        {
+            //var dt = new Reader.DataBase();
+            //dt.Add(new Reader.scope() { Id = "1", Text = "scopeName" });
+            var l = new List<TodoItem>();
+            l.Add(new TodoItem() { Text = "TaskItem", Id = "1", ListId = "2" });
+
+            return l;
+        }
+        
+        
+        public IEnumerable<TodoItem> RetriveScope()
+        {
+            var l = new List<TodoItem>();
+            l.Add(new TodoItem() { Text = "Kit1", Id = "1", ListId = "2" });
+
+            return l;
+        }
+
+        public Reader.DataBase RetriveDataBase()
+        {
+            var dt = new Reader.DataBase();
+            dt.Add(new Reader.scope() { Id = "1", Text = "scopeName" });
+            //dt[0].Items = new List<TodoItem>();
+            //dt[0].Items.Add(new TodoItem() { Text = "text", Id = "1", ListId = "2" });
+
+            return dt;
+        }
+
+        public IEnumerable<TodoItem> LoadItem(string scopeId, string itemId)
+        {
+            throw new NotImplementedException();
+        }
+
         public class TodoItemRecord : TableEntity
         {
             [IgnoreProperty]

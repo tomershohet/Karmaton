@@ -1,9 +1,14 @@
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\obj\Debug\SlackCommander.Web.csprojResolveAssemblyReference.cache
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\NLog.config
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\SlackCommander.Web.dll.config
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\SlackCommander.Web.dll
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\SlackCommander.Web.pdb
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\Autofac.dll
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\Castle.Core.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\GData.Spreadsheets.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\Google.GData.Client.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\Google.GData.Extensions.dll
+D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\Google.GData.Spreadsheets.dll
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\Magnum.dll
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\MassTransit.AutofacIntegration.dll
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\MassTransit.dll
@@ -75,6 +80,5 @@ D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\ko\
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\ru\System.Spatial.resources.dll
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\zh-Hans\System.Spatial.resources.dll
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\bin\zh-Hant\System.Spatial.resources.dll
-D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\obj\Debug\SlackCommander.Web.csprojResolveAssemblyReference.cache
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\obj\Debug\SlackCommander.Web.dll
 D:\dvlp\Karmaton\SlackCommander-master\SlackCommander\SlackCommander.Web\obj\Debug\SlackCommander.Web.pdb

@@ -13,5 +13,7 @@ namespace SlackCommander.Web
         public string user_name { get; set; }
         public string command { get; set; }
         public string text { get; set; }
+        public string kitId { get; set; }
+        public string itemId { get; set; }
     }
 }

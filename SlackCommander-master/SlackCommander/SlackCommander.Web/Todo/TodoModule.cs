@@ -147,7 +147,9 @@ namespace SlackCommander.Web.Todo
                     }
                 case "get":
                     {
-                        if (message.kitId == null)
+                        var kitId = message.text.SubstringByWords(1, 1);
+
+                        if (kitId == null)
                         {
                             var scopeRet = _todoService.RetriveScope();
                             return scopeRet.ToArray().ToSlackString();

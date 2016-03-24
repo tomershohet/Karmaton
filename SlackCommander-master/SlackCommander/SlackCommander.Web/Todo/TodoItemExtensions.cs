@@ -22,7 +22,7 @@ namespace SlackCommander.Web.Todo
                 text.AppendLine(string.Format(
                 "`{0}` {1} {2} {3} {4}",
                 item.Id.PadLeft(idMaxLength),
-                item.Done ? ":white_check_mark:" : ":white_square:",
+                item.checkable ? (item.Done ? ":white_check_mark:" : ":white_square:") : "",
                 item.Text,
                 item.ClaimedBy.Missing() ? string.Empty : ":lock:",
                 item.ClaimedBy.Missing() ? string.Empty : string.Format("<@{0}>", item.ClaimedBy)).Trim());

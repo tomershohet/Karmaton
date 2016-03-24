@@ -291,7 +291,7 @@ namespace SlackCommander.Web.Todo
         public IEnumerable<TodoItem> RetriveScope()
         {
             var l = new List<TodoItem>();
-            l.Add(new TodoItem() { Text = "Kit1", Id = "1", ListId = "2" });
+            l.Add(new KitItem() { Text = "Kit1", Id = "1", ListId = "2" });
 
             return l;
         }

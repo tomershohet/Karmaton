@@ -22,7 +22,7 @@ namespace SlackCommander.Web.Todo
             _todoService = todoService;
             _bus = bus;
 
-            Post["/todo"] = _ =>
+            Post["/kit"] = _ =>
             {
                 var slashCommand = this.Bind<SlashCommand>();
                 if (slashCommand == null ||
@@ -36,7 +36,7 @@ namespace SlackCommander.Web.Todo
                     Log.Info("Blocked an unauthorized slash command.");
                     return HttpStatusCode.Unauthorized.WithReason("Missing or invalid token.");
                 }
-                if (!slashCommand.command.Equals("/todo", StringComparison.InvariantCultureIgnoreCase))
+                if (!slashCommand.command.Equals("/kit", StringComparison.InvariantCultureIgnoreCase))
                 {
                     Log.Info("Rejected an incoming slash command ({0} is not handled by this module).", slashCommand.command);
                     return HttpStatusCode.BadRequest.WithReason("Unsupported slash command.");

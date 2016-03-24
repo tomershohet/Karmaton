@@ -19,7 +19,5 @@ namespace SlackCommander.Web.Todo
 
         IEnumerable<TodoItem> RetriveKit(string KitId);
         IEnumerable<TodoItem> RetriveScope();
-
-        Reader.DataBase RetriveDataBase();
     }
 }

@@ -273,15 +273,41 @@ namespace SlackCommander.Web.Todo
 
             if (KitId == "1")
             {
-                l.Add(new TodoItem() { Text = "TaskItem 1", Id = "1", ListId = "1" });
-                l.Add(new TodoItem() { Text = "TaskItem 2", Id = "2", ListId = "1" });
-                l.Add(new TodoItem() { Text = "TaskItem 3", Id = "3", ListId = "1" });
+                l.Add(new TodoItem() { Text = "השלבים ליצירת הסכם", Id = "1", ListId = "1" });
+                l.Add(new TodoItem() { Text = "כותבים הסכם? אתם במקום הנכון", Id = "2", ListId = "1" });
+                l.Add(new TodoItem() { Text = "שפה - החליטו איזה שפה נוחה לשני הצדדים", Id = "3", ListId = "1" });
+                l.Add(new TodoItem() { Text = "הורידו את אחד הטמפלטים שמצורים בקישורים מטה", Id = "4", ListId = "1" });
+                l.Add(new TodoItem() { Text = "החליטו באיזה אופן אתם רוצים להתאגד", Id = "5", ListId = "1" });
+                l.Add(new TodoItem() { Text = "כתבו טיוטת עקרונות בינכם. רשימת נקודות להתייחסות:", Id = "6", ListId = "1" });
+                l.Add(new TodoItem() { Text = "זהות בעלי המניות", Id = "7", ListId = "1" });
+                l.Add(new TodoItem() { Text = "קביעת זהות \"בעל עניין\" בתאגיד מדווח", Id = "8", ListId = "1" });
+                l.Add(new TodoItem() { Text = "אחזקות הצדדים", Id = "9", ListId = "1" });
+                l.Add(new TodoItem() { Text = "מטרת המייסדים ותחומי אחריות", Id = "10", ListId = "1" });
+                l.Add(new TodoItem() { Text = "תרומה של כל מייסד", Id = "11", ListId = "1" });
+                l.Add(new TodoItem() { Text = "ניגוד עניינים", Id = "12", ListId = "1" });
+                l.Add(new TodoItem() { Text = "עסקאות בעלי עניין", Id = "13", ListId = "1" });
+                l.Add(new TodoItem() { Text = "http://www.bikoretpnim.co.il/parties.html", Id = "14", ListId = "1" });
+                l.Add(new TodoItem() { Text = "סוגי העסקאות והאישורים הנדרשים", Id = "15", ListId = "1" });
+                l.Add(new TodoItem() { Text = "מינוי דירקטורים", Id = "16", ListId = "1" });
+                l.Add(new TodoItem() { Text = "מינוי עובדים ותנאי העסקתם", Id = "17", ListId = "1" });
+                l.Add(new TodoItem() { Text = "תקציב ותוכנית עסקית", Id = "18", ListId = "1" });
+                l.Add(new TodoItem() { Text = "זכויות חתימה", Id = "19", ListId = "1" });
+                l.Add(new TodoItem() { Text = "הסבר וטבלה", Id = "20", ListId = "1" });
+                l.Add(new TodoItem() { Text = "מימון ודילול", Id = "21", ListId = "1" });
+                l.Add(new TodoItem() { Text = "Founder (Reverse) Vesting", Id = "22", ListId = "1" });
+                l.Add(new TodoItem() { Text = "בעל מניות כעובד", Id = "23", ListId = "1" });
+                l.Add(new TodoItem() { Text = "חלוקת דיבידנד", Id = "24", ListId = "1" });
+                l.Add(new TodoItem() { Text = "מיזוג ופירוק", Id = "25", ListId = "1" });
+                l.Add(new TodoItem() { Text = "מעקב פיננסי", Id = "26", ListId = "1" });
+                l.Add(new TodoItem() { Text = "עבר של המייסדים בחברה קודמת והתחיבויות", Id = "27", ListId = "1" });
+                l.Add(new TodoItem() { Text = "מהם ציפיות ויכולת העיסוק של המייסדים", Id = "28", ListId = "1" });
+                l.Add(new TodoItem() { Text = "מה האחוזים שיחזיק כל מייסד (רצוי מאוד - חלוקה שווה)", Id = "29", ListId = "1" });
             }
             else
             {
-                l.Add(new TodoItem() { Text = "TaskItem2313 1", Id = "1", ListId = "2" });
-                l.Add(new TodoItem() { Text = "TaskItem435435 2", Id = "2", ListId = "2" });
-                l.Add(new TodoItem() { Text = "TaskItem767 3", Id = "3", ListId = "2" });
+                l.Add(new TodoItem() { Text = "TaskItem", Id = "1", ListId = "2" });
+                l.Add(new TodoItem() { Text = "TaskItem", Id = "2", ListId = "2" });
+                l.Add(new TodoItem() { Text = "TaskItem", Id = "3", ListId = "2" });
             }
 
             return l;
@@ -291,21 +317,16 @@ namespace SlackCommander.Web.Todo
         public IEnumerable<TodoItem> RetriveScope()
         {
             var l = new List<TodoItem>();
-            l.Add(new KitItem() { Text = "Kit1", Id = "1", ListId = "2" });
+            l.Add(new KitItem() { Text = "הסכם מייסדים", Id = "1", ListId = "2" });
+            l.Add(new KitItem() { Text = "הלוואת בעלים", Id = "2", ListId = "2" });
+            l.Add(new KitItem() { Text = "כתיבת תכנית עסקית", Id = "3", ListId = "2" });
+            l.Add(new KitItem() { Text = "בניית משכורות", Id = "4", ListId = "2" });
+            l.Add(new KitItem() { Text = "הערכת שווי", Id = "5", ListId = "2" });
+
 
             return l;
         }
-
-        public Reader.DataBase RetriveDataBase()
-        {
-            var dt = new Reader.DataBase();
-            dt.Add(new Reader.scope() { Id = "1", Text = "scopeName" });
-            //dt[0].Items = new List<TodoItem>();
-            //dt[0].Items.Add(new TodoItem() { Text = "text", Id = "1", ListId = "2" });
-
-            return dt;
-        }
-
+        
         public IEnumerable<TodoItem> LoadItem(string scopeId, string itemId)
         {
             throw new NotImplementedException();

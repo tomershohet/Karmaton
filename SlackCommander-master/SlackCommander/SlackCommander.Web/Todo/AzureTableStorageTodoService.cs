@@ -285,23 +285,6 @@ namespace SlackCommander.Web.Todo
                 l.Add(new TodoItem() { Text = "מטרת המייסדים ותחומי אחריות", Id = "10", ListId = "1" });
                 l.Add(new TodoItem() { Text = "תרומה של כל מייסד", Id = "11", ListId = "1" });
                 l.Add(new TodoItem() { Text = "ניגוד עניינים", Id = "12", ListId = "1" });
-                l.Add(new TodoItem() { Text = "עסקאות בעלי עניין", Id = "13", ListId = "1" });
-                l.Add(new TodoItem() { Text = "http://www.bikoretpnim.co.il/parties.html", Id = "14", ListId = "1" });
-                l.Add(new TodoItem() { Text = "סוגי העסקאות והאישורים הנדרשים", Id = "15", ListId = "1" });
-                l.Add(new TodoItem() { Text = "מינוי דירקטורים", Id = "16", ListId = "1" });
-                l.Add(new TodoItem() { Text = "מינוי עובדים ותנאי העסקתם", Id = "17", ListId = "1" });
-                l.Add(new TodoItem() { Text = "תקציב ותוכנית עסקית", Id = "18", ListId = "1" });
-                l.Add(new TodoItem() { Text = "זכויות חתימה", Id = "19", ListId = "1" });
-                l.Add(new TodoItem() { Text = "הסבר וטבלה", Id = "20", ListId = "1" });
-                l.Add(new TodoItem() { Text = "מימון ודילול", Id = "21", ListId = "1" });
-                l.Add(new TodoItem() { Text = "Founder (Reverse) Vesting", Id = "22", ListId = "1" });
-                l.Add(new TodoItem() { Text = "בעל מניות כעובד", Id = "23", ListId = "1" });
-                l.Add(new TodoItem() { Text = "חלוקת דיבידנד", Id = "24", ListId = "1" });
-                l.Add(new TodoItem() { Text = "מיזוג ופירוק", Id = "25", ListId = "1" });
-                l.Add(new TodoItem() { Text = "מעקב פיננסי", Id = "26", ListId = "1" });
-                l.Add(new TodoItem() { Text = "עבר של המייסדים בחברה קודמת והתחיבויות", Id = "27", ListId = "1" });
-                l.Add(new TodoItem() { Text = "מהם ציפיות ויכולת העיסוק של המייסדים", Id = "28", ListId = "1" });
-                l.Add(new TodoItem() { Text = "מה האחוזים שיחזיק כל מייסד (רצוי מאוד - חלוקה שווה)", Id = "29", ListId = "1" });
             }
             else
             {

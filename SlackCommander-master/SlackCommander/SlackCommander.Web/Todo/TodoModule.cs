@@ -149,16 +149,32 @@ namespace SlackCommander.Web.Todo
                     {
                         var kitId = message.text.SubstringByWords(1, 1);
 
-                        if (kitId == null)
+                        if (kitId.Missing())
                         {
                             var scopeRet = _todoService.RetriveScope();
                             return scopeRet.ToArray().ToSlackString();
                         }
                         else
                         {
-                            var scopeRet = _todoService.RetriveKit(message.kitId);
-                            return scopeRet.ToArray().ToSlackString();
+                            var newKit = _todoService.RetriveKit(kitId);
+                            return newKit.ToArray().ToSlackString();
                         }
+                    }
+                case "start":
+                    {
+                        var kitId = message.text.SubstringByWords(1, 1);
+
+                        if (kitId.Missing())
+                            return null;
+
+                        // Clean the old items
+                        _todoService.ClearItems(message.user_id, listId, includeUnticked: true, force: true);
+
+                        var newKit = _todoService.RetriveKit(kitId);
+                        foreach (var item in newKit)
+                            _todoService.AddItem(message.user_id, listId, item.Text);
+                        
+                        break;
                     }
                 case "clear":
                     {

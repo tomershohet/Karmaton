@@ -269,10 +269,20 @@ namespace SlackCommander.Web.Todo
 
         public IEnumerable<TodoItem> RetriveKit(string KitId)
         {
-            //var dt = new Reader.DataBase();
-            //dt.Add(new Reader.scope() { Id = "1", Text = "scopeName" });
             var l = new List<TodoItem>();
-            l.Add(new TodoItem() { Text = "TaskItem", Id = "1", ListId = "2" });
+
+            if (KitId == "1")
+            {
+                l.Add(new TodoItem() { Text = "TaskItem 1", Id = "1", ListId = "1" });
+                l.Add(new TodoItem() { Text = "TaskItem 2", Id = "2", ListId = "1" });
+                l.Add(new TodoItem() { Text = "TaskItem 3", Id = "3", ListId = "1" });
+            }
+            else
+            {
+                l.Add(new TodoItem() { Text = "TaskItem2313 1", Id = "1", ListId = "2" });
+                l.Add(new TodoItem() { Text = "TaskItem435435 2", Id = "2", ListId = "2" });
+                l.Add(new TodoItem() { Text = "TaskItem767 3", Id = "3", ListId = "2" });
+            }
 
             return l;
         }

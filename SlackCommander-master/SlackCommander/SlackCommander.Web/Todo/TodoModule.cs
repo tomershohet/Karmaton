@@ -8,6 +8,7 @@ using Nancy;
 using Nancy.ModelBinding;
 using NLog;
 using SlackCommander.Web.SlackMessage.Messages;
+using System.Threading.Tasks;
 
 namespace SlackCommander.Web.Todo
 {
@@ -171,8 +172,9 @@ namespace SlackCommander.Web.Todo
                         _todoService.ClearItems(message.user_id, listId, includeUnticked: true, force: true);
 
                         var newKit = _todoService.RetriveKit(kitId);
-                        foreach (var item in newKit)
-                            _todoService.AddItem(message.user_id, listId, item.Text);
+                        Parallel.ForEach(newKit, (item) =>
+                            _todoService.AddItem(message.user_id, listId, item.Text)
+                        );
                         
                         break;
                     }

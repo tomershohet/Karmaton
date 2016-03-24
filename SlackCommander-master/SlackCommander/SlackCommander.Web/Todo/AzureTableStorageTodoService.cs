@@ -277,14 +277,6 @@ namespace SlackCommander.Web.Todo
                 l.Add(new TodoItem() { Text = "כותבים הסכם? אתם במקום הנכון", Id = "2", ListId = "1" });
                 l.Add(new TodoItem() { Text = "שפה - החליטו איזה שפה נוחה לשני הצדדים", Id = "3", ListId = "1" });
                 l.Add(new TodoItem() { Text = "הורידו את אחד הטמפלטים שמצורים בקישורים מטה", Id = "4", ListId = "1" });
-                l.Add(new TodoItem() { Text = "החליטו באיזה אופן אתם רוצים להתאגד", Id = "5", ListId = "1" });
-                l.Add(new TodoItem() { Text = "כתבו טיוטת עקרונות בינכם. רשימת נקודות להתייחסות:", Id = "6", ListId = "1" });
-                l.Add(new TodoItem() { Text = "זהות בעלי המניות", Id = "7", ListId = "1" });
-                l.Add(new TodoItem() { Text = "קביעת זהות \"בעל עניין\" בתאגיד מדווח", Id = "8", ListId = "1" });
-                l.Add(new TodoItem() { Text = "אחזקות הצדדים", Id = "9", ListId = "1" });
-                l.Add(new TodoItem() { Text = "מטרת המייסדים ותחומי אחריות", Id = "10", ListId = "1" });
-                l.Add(new TodoItem() { Text = "תרומה של כל מייסד", Id = "11", ListId = "1" });
-                l.Add(new TodoItem() { Text = "ניגוד עניינים", Id = "12", ListId = "1" });
             }
             else
             {
